@@ -11,26 +11,26 @@ package bean;
  */
 public class TaxeTNB {
     
-    private Redevable redevable;
-    private Terrain terrain;
+    private int redevable;
+    private int terrain;
     private int annee;
     private double mtBase;
 
     public TaxeTNB() {
     }
 
-    public TaxeTNB(Redevable redevable, Terrain terrain, int annee, double mtBase) {
+    public TaxeTNB(int redevable, int terrain, int annee, double mtBase) {
         this.redevable = redevable;
         this.terrain = terrain;
         this.annee = annee;
         this.mtBase = mtBase;
     }
 
-    public Redevable getRedevable() {
+    public int getRedevable() {
         return redevable;
     }
 
-    public void setRedevable(Redevable redevable) {
+    public void setRedevable(int redevable) {
         this.redevable = redevable;
     }
 
@@ -38,11 +38,11 @@ public class TaxeTNB {
 
    
 
-    public Terrain getTerrain() {
+    public int getTerrain() {
         return terrain;
     }
 
-    public void setTerrain(Terrain terrain) {
+    public void setTerrain(int terrain) {
         this.terrain = terrain;
     }
 

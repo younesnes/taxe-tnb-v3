@@ -11,7 +11,7 @@ package bean;
  */
 public class TauxTaxeTNB {
     
-    private Categorie categorie;
+    private int categorie;
     private double surfaceMin;
     private double surfaceMax;
     private double prixParMetre;
@@ -19,18 +19,18 @@ public class TauxTaxeTNB {
     public TauxTaxeTNB() {
     }
 
-    public TauxTaxeTNB(Categorie categorie, double surfaceMin, double surfaceMax, double prixParMetre) {
+    public TauxTaxeTNB(int categorie, double surfaceMin, double surfaceMax, double prixParMetre) {
         this.categorie = categorie;
         this.surfaceMin = surfaceMin;
         this.surfaceMax = surfaceMax;
         this.prixParMetre = prixParMetre;
     }
 
-    public Categorie getCategorie() {
+    public int getCategorie() {
         return categorie;
     }
 
-    public void setCategorie(Categorie categorie) {
+    public void setCategorie(int categorie) {
         this.categorie = categorie;
     }
 

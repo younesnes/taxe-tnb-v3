@@ -13,7 +13,7 @@ public class Terrain {
     
     private int id;
     private String ref;
-    private Rue rue;
+    private int rue;
     private double surface;
     private Redevable redevable;
     private Categorie categorie;
@@ -39,11 +39,11 @@ public class Terrain {
         this.ref = ref;
     }
 
-    public Rue getRue() {
+    public int getRue() {
         return rue;
     }
 
-    public void setRue(Rue rue) {
+    public void setRue(int rue) {
         this.rue = rue;
     }
 
@@ -76,7 +76,4 @@ public class Terrain {
     public String toString() {
         return "Terrain{" + "id=" + id + ", ref=" + ref + ", rue=" + rue + ", surface=" + surface + ", redevable=" + redevable + '}';
     }
-    
-    
-    
 }
